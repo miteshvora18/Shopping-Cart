@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{32481CB8-8E51-44B7-A109-F07D16AEC7C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agent", "Agent\Agent.csproj", "{A124C621-48C1-4F91-838C-A3FE9B9B58AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32481CB8-8E51-44B7-A109-F07D16AEC7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32481CB8-8E51-44B7-A109-F07D16AEC7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32481CB8-8E51-44B7-A109-F07D16AEC7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32481CB8-8E51-44B7-A109-F07D16AEC7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A124C621-48C1-4F91-838C-A3FE9B9B58AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A124C621-48C1-4F91-838C-A3FE9B9B58AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A124C621-48C1-4F91-838C-A3FE9B9B58AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A124C621-48C1-4F91-838C-A3FE9B9B58AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

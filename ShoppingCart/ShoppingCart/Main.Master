@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="ShoppingCart.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Home</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="css/images/favicon.ico" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	
+	<script src="js/jquery-1.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<!--[if IE 6]>
+		<script src="js/DD_belatedPNG-min.js" type="text/javascript" charset="utf-8"></script>
+	<![endif]-->
+	<script src="js/jquery.jcarousel.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/functions.js" type="text/javascript" charset="utf-8"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>    
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <!-- Begin Wrapper -->
+	    <div id="wrapper">
+		<!-- Begin Search -->
+		<div id="search" style="height:26px;">
+            <asp:Panel DefaultButton="btnSearch" runat="server">
+			    <div class="shell">
+				    <div style="float:right;" id="srch" runat="server">
+					    <div class="container">
+						    <%--<input type="text" value="Keywords..." title="Keywords..." class="blink" />--%>
+                            <asp:TextBox ID="txtSearch" title="Search by Product Name" CssClass="txt" runat="server"></asp:TextBox>
+					    </div>
+					    <%--<input class="search-button" id="btnsrch" type="submit" value="Submit" />--%>
+                        <asp:Button ID="btnSearch" runat="server" Text="Search" CssClass="btn" 
+                            style="background-color:#373737;height:27px;border:1px solid white;" 
+                            onclick="btnSearch_Click" />
+				    </div>
+				    <div class="cl">&nbsp;</div>
+			    </div>
+            </asp:Panel>
+		</div>
+		<!-- End Search -->
+		<!-- Begin Header -->
+		<div id="header" class="shell">
+			<h1 id="logo">
+                <a class="notext" href="#" title="PC Store">PC Store</a>
+                <asp:Label ID="lblUser" runat="server" style="float:right;color:#fff;font-size:14px;padding-top:10px;" Text="Welcome Guest"></asp:Label>
+            </h1>
+		</div>
+		<!-- End Header -->
+            
+        <asp:Panel ID="Panel1" runat="server">
+            <!-- Begin Navigation -->
+		    <div id="navigation">
+			    <div class="shell">
+				    <ul>
+					    <li><a href="Default.aspx" title="Home">Home</a></li>
+					    <li><a href="Cart.aspx" id="basket" runat="server" title="Cart">Cart</a></li>
+					    <li><a href="About.aspx" title="About Us">About Us</a></li>
+                        <li><a href="BuyPreference.aspx" id="buy" runat="server" title="User Preference">Select Preference</a></li>
+                        <li><a href="Contact.aspx" title="Contact">Contact</a></li>
+                        <li><a href="Login.aspx" id="login" runat="server" title="Log In">Log In</a></li>
+				    </ul>
+				    <div class="cl">&nbsp;</div>
+			    </div>
+		    </div>
+		    <!-- End Navigation -->
+         </asp:Panel>
+
+
+        <asp:Panel ID="Panel2" runat="server">
+        <!-- Begin Navigation -->
+		    <div id="navigation">
+			    <div class="shell">
+				    <ul>
+					    <li><a href="AddP.aspx" title="Add Product">Add Product</a></li>
+					    <li><a href="ViewProduct.aspx" title="View Product">View Product</a></li>
+					    <li><a href="ViewSales.aspx" title="Account">View Sales</a></li>
+					    <%--<li><a href="ViewUP.aspx    " title="View User Preference">View User Preference</a></li>--%>
+					    <li><a href="Logout.aspx" title="Logout">Logout</a></li>
+				    </ul>
+				    <div class="cl">&nbsp;</div>
+			    </div>
+		    </div>
+	    <!-- End Navigation -->
+        </asp:Panel>
+           
+        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <!-- Begin Footer -->
+		<div id="footer">
+			<div class="shell">
+				<p class="bottom-menu"><a href="Default.aspx" title="Home">Home</a><span>
+                |</span><a href="Login.aspx" title="Log In" id="loginFooter" runat="server">Log In</a><span>
+                |</span><a href="Cart.aspx" title="Cart" id="basketFooter" runat="server">Cart |</a><span>
+                </span><a href="Contact.aspx" title="Contact">Contact</a></p>
+			</div>
+		</div>
+		<!-- End Footer -->
+	</div>
+	<!-- End Wrapper -->
+        
+    </div>
+    </form>
+</body>
+</html>

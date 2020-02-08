@@ -1,0 +1,20 @@
+D:\Mitesh\Nevon Projects n WA Training\ShoppingCart\ShoppingCart\ShoppingCart\bin\ShoppingCart.dll
+D:\Mitesh\Nevon Projects n WA Training\ShoppingCart\ShoppingCart\ShoppingCart\bin\ShoppingCart.pdb
+D:\Mitesh\Nevon Projects n WA Training\ShoppingCart\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.dll
+D:\Mitesh\Nevon Projects n WA Training\ShoppingCart\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.pdb
+D:\Mitesh\Nevon Projects n WA Training\ShoppingCart_Old\ShoppingCart\ShoppingCart\bin\ShoppingCart.dll
+D:\Mitesh\Nevon Projects n WA Training\ShoppingCart_Old\ShoppingCart\ShoppingCart\bin\ShoppingCart.pdb
+D:\Mitesh\Nevon Projects n WA Training\ShoppingCart_Old\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.dll
+D:\Mitesh\Nevon Projects n WA Training\ShoppingCart_Old\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.pdb
+D:\Mitesh\Nevon Projects n WA Training\ShoppingCart_Final\ShoppingCart\ShoppingCart\bin\ShoppingCart.dll
+D:\Mitesh\Nevon Projects n WA Training\ShoppingCart_Final\ShoppingCart\ShoppingCart\bin\ShoppingCart.pdb
+D:\Mitesh\Nevon Projects n WA Training\ShoppingCart_Final\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.dll
+D:\Mitesh\Nevon Projects n WA Training\ShoppingCart_Final\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.pdb
+D:\Mitesh\Nevon Projects n WA Training\ShoppingCart_Final\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.csprojResolveAssemblyReference.cache
+D:\Mitesh\Nevon Projects n WA Training\Ready Projects\ShoppingCart_Final\ShoppingCart\ShoppingCart\bin\ShoppingCart.dll
+D:\Mitesh\Nevon Projects n WA Training\Ready Projects\ShoppingCart_Final\ShoppingCart\ShoppingCart\bin\ShoppingCart.pdb
+D:\Mitesh\Nevon Projects n WA Training\Ready Projects\ShoppingCart_Final\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.csprojResolveAssemblyReference.cache
+D:\Mitesh\Nevon Projects n WA Training\Ready Projects\ShoppingCart_Final\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.dll
+D:\Mitesh\Nevon Projects n WA Training\Ready Projects\ShoppingCart_Final\ShoppingCart\ShoppingCart\obj\Debug\ShoppingCart.pdb
+D:\Mitesh\Nevon Projects n WA Training\Ready Projects\ShoppingCart_Final\ShoppingCart\ShoppingCart\bin\Agent.dll
+D:\Mitesh\Nevon Projects n WA Training\Ready Projects\ShoppingCart_Final\ShoppingCart\ShoppingCart\bin\Agent.pdb
